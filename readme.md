@@ -10,6 +10,7 @@ The GR4J is a hydrological lumped four parameter rainfall-runoff  model.[1]
 
 
 ![Schematic diagrama of the GR4J model](/GR4J_scheme.png) 
+
 Figure 1. Schematic diagrama of the GR4J model [3]
 
 
