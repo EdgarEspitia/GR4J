@@ -9,7 +9,7 @@ The GR4J is a hydrological lumped four parameter rainfall-runoff  model.[1]
 
 
 
-![Schematic diagrama of the GR4J model](/GR4J_scheme.png) 
+![Schematic diagrama of the GR4J model](/GR4J_scheme.png)
 
 Figure 1. Schematic diagrama of the GR4J model [3]
 
@@ -20,10 +20,18 @@ The program was tested and comparted with the data and results presented
 in the excel file pubicate by irsteam [4]. 
 
 
+
+
+
 ## How to use
 
 Check the example in the scrip [main.py](https://github.com/fbespitia/GR4J/blob/master/main.py)
 
+
+## Paramtresiation
+
+It is used the algoritm Nelder-Mead to find the parameters of the model.
+[para_GR4J.py](https://github.com/fbespitia/GR4J/blob/master/para_GR4J.py)
 
 
 ## References 
