@@ -25,10 +25,8 @@ def fun_obj(x):
 x0 = [320, 2.42, 60, 1.3]
 res = minimize(fun_obj, x0, method = 'nelder-mead',
                options = {'xtol': 1e-8, 'disp': True})
-
  
 print (res.x)
-
 
 X = [0]
 X.extend(res.x)
@@ -46,10 +44,6 @@ Q_fore_opt = my_basin.run()
 print("parameters Fore_opt. Flows  " )
 print(X)
 print( "NSE = {0:.2f} " .format( cri.nash(data[:, 3], Q_fore_opt) ) )
-
-
-
-
 
 fig, ax = plt.subplots()
 line1, = ax.plot(data[:,0], data[:, 3]     , label='Obs. Flows ')
